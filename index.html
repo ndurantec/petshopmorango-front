@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <link rel="stylesheet" href="/css/style.css">
+   
+</head>
+<body>
+
+    <h2>Lista de Alunos</h2>
+
+    <!-- Botão para acionar a requisição ao back-end -->
+    <button id="btn-carregar" onclick="listaAlunos()">Carregar Alunos</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody id="alunos">
+            <!-- Os alunos serão carregados pelo JavaScript -->
+        </tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
