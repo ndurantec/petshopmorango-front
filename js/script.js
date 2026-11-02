@@ -30,7 +30,7 @@ function renderizaTabelaAlunos(alunos) {
 // 2. Função responsável por buscar os dados usando Axios
 async function listaAlunos() {
   try {
-    // const response = await axios.get('http://127.0.0.1:3000/alunos');
+    //const response = await axios.get('http://127.0.0.1:3000/alunos');
     const response = await axios.get('https://escola-node.onrender.com/alunos');
     console.log("Lista de alunos recebida:", response.data);
     
